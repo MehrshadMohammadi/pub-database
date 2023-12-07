@@ -1,2 +1,210 @@
-tset1
-test2
+Runtime.exec
+ProcessBuilder
+System.gc
+StringBuffer
+StringBuilder 
+sun.misc.BASE64Encoder
+sun.misc.BASE64Decoder
+ObjectInputStream 
+ObjectOutputStream
+java.io.File
+java.nio.file.Path
+java.util.Timer
+java.util.TimerTask
+java.util.Random
+FileInputStream
+FileOutputStream
+System.setSecurityManager
+Thread.stop
+Thread.suspend
+Thread.resume
+Runtime.runFinalizersOnExit
+clone
+equals
+hashCode
+Object.finalize
+finalize
+PreparedStatement 
+Runtime.getRuntime().exec
+System.runFinalizersOnExit
+FileWriter
+FileReader
+URL.openStream
+ClassLoader.getSystemResource
+ClassLoader.getResource
+ClassLoader.loadClass
+HttpCookie
+Cookie
+Class.getMethod
+Class.forName
+Random.nextBoolean
+Random.nextFloat
+Random.nextDouble
+Random.nextLong
+Random.nextInt
+URLEncoder.encode
+URLDecoder.decode
+URLConnection.setDefaultAllowUserInteraction
+URLConnection.setAllowUserInteraction
+Date.setMonth
+Date.setYear
+Statement.executeQuery
+Statement.executeUpdate
+Statement.execute
+Object.equals
+Object.hashCode
+Object.clone
+Class.newInstance
+Constructor.newInstance
+Method.invoke
+Field.set
+Field.getBoolean
+Field.getByte
+Field.getChar
+Field.getDouble
+Field.getFloat
+Field.getInt
+Field.getLong
+Field.getShort
+ObjectInputStream.readObject
+ObjectInputStream.readUnshared
+Scanner
+Scanner
+Scanner
+Socket.connect
+ServerSocket.accept
+DatagramSocket.send
+DatagramSocket.receive
+Socket.getInputStream
+Socket.getOutputStream
+URLConnection.getInputStream
+URLConnection.getOutputStream
+URLConnection.getPermission
+File.list
+File.listFiles
+File.listRoots
+FileReader.read
+FileReader.read
+FileWriter.write
+FileWriter.write
+FileWriter.write
+HttpURLConnection.getInputStream
+HttpURLConnection.getOutputStream
+HttpURLConnection.getResponseCode
+HttpURLConnection.getResponseMessage
+HttpURLConnection.getHeaderField
+HttpURLConnection.getPermission
+ClassLoader.defineClass(String name, byte[] b, int off, int len)
+ClassLoader.findSystemClass(String name)
+ClassLoader.getSystemClassLoader()
+ClassLoader.setDefaultAssertionStatus(boolean enabled)
+URL.openConnection()
+URL.openConnection(Proxy p)
+URLDecoder.decode(String s)
+ScriptEngine.eval(String script)
+ScriptEngine.eval(String script, ScriptContext context)
+Runtime.load(String filename)
+Runtime.loadLibrary(String libname)
+System.load(String filename)
+System.loadLibrary(String libname)
+FileDescriptor.sync()
+File.createTempFile(String prefix, String suffix)
+File.createTempFile(String prefix, String suffix, File directory)
+File.renameTo(File dest)
+FileWriter.append(char c)
+FileWriter.append(CharSequence csq)
+FileWriter.append(CharSequence csq, int start, int end)
+File.setLastModified(long time)
+File.setReadOnly()
+File.setWritable(boolean writable, boolean ownerOnly)
+File.setWritable(boolean writable)
+File.setReadable(boolean readable, boolean ownerOnly)
+File.setReadable(boolean readable)
+File.setExecutable(boolean executable, boolean ownerOnly)
+File.setExecutable(boolean executable)
+JarInputStream.getManifest()
+PrintStream.checkError()
+PrintStream.write(byte[] buf, int off, int len)
+PrintStream.append(CharSequence csq, int start, int end)
+PrintStream.append(CharSequence csq)
+PrintStream.append(char c)
+PrintStream.printf(String format, Object ... args)
+PrintWriter.checkError()
+PrintWriter.write(char[] buf, int off, int len)
+PrintWriter.append(CharSequence csq, int start, int end)
+PrintWriter.append(CharSequence csq)
+PrintWriter.printf(String format, Object ... args)
+SecureRandom.nextBytes(byte[] bytes)
+SecureRandom.nextInt()
+SecureRandom.nextLong()
+SecureRandom.nextFloat()
+SecureRandom.nextDouble()
+SecureRandom.nextGaussian()
+Cipher.doFinal()
+Cipher.init(int opmode, Key key)
+CipherInputStream.read()
+CipherInputStream.read(byte[] b, int off, int len)
+Mac.init(Key key)
+Mac.doFinal()
+KeyStore.load(InputStream stream, char[] password)
+KeyStore.store(OutputStream stream, char[] password)
+KeyStore.setKeyEntry(String alias, Key key, char[] password, Certificate[] chain)
+KeyPairGenerator.generateKeyPair()
+PrivateKey.getFormat()
+PublicKey.getFormat()
+Signature.initSign(PrivateKey privateKey)
+Signature.initVerify(PublicKey publicKey)
+avax.crypto.SealedObject.getObject(Key key)
+javax.crypto.SealedObject.getObject(Cipher c)
+java.lang.Class.forName(String name)
+java.lang.Class.forName(String name, boolean initialize, ClassLoader loader)
+java.lang.System.exit(int status)
+javax.imageio.ImageIO.write(RenderedImage im, String formatName, File output)
+javax.imageio.ImageIO.read(File input)
+javax.swing.JOptionPane.showInputDialog(Object message)
+java.lang.Thread.stop()
+java.lang.ThreadGroup.stop()
+java.net.ServerSocket.accept()
+java.net.Socket.connect(SocketAddress endpoint)
+java.net.DatagramSocket.send(DatagramPacket p)
+java.net.MulticastSocket.joinGroup(InetAddress mcastaddr)
+java.net.HttpURLConnection.connect()
+java.io.FileOutputStream.write(byte[] b)
+java.io.FileInputStream.read()
+java.io.ObjectOutputStream.writeObject(Object obj)
+java.io.ObjectInputStream.readObject()
+java.io.RandomAccessFile.write(byte[] b)
+java.lang.Runtime.exec(String command)
+java.lang.Runtime.exec(String[] cmdarray)
+java.lang.Runtime.exec(String command, String[] envp)
+java.lang.Runtime.exec(String[] cmdarray, String[] envp)
+java.lang.Runtime.exec(String command, String[] envp, File dir)
+java.lang.Runtime.exec(String[] cmdarray, String[] envp, File dir)
+java.lang.Runtime.getRuntime()
+java.io.BufferedInputStream.read()
+java.io.BufferedInputStream.read(byte[] b, int off, int len)
+java.io.BufferedReader.readLine()
+java.io.BufferedOutputStream.write(int b)
+java.io.BufferedOutputStream.write(byte[] b, int off, int len)
+java.io.BufferedWriter.write(String s, int off, int len)
+java.io.BufferedWriter.newLine()
+java.io.ByteArrayOutputStream.size()
+java.io.ByteArrayOutputStream.toByteArray()
+java.io.DataInputStream.readInt()
+java.io.DataInputStream.readUTF()
+java.io.DataOutputStream.writeInt(int v)
+java.io.DataOutputStream.writeUTF(String str)
+java.io.StringWriter.append(CharSequence csq)
+java.io.StringWriter.write(String str)
+java.io.StringWriter.write(char[] cbuf, int off, int len)
+java.io.FileReader.read()
+java.io.FileReader.read(char[] cbuf, int off, int len)
+java.io.FileWriter.write(int c)
+java.io.FileWriter.write(char[] cbuf, int off, int len)
+java.io.FileWriter.write(String str, int off, int len)
+java.io.FileWriter.append(CharSequence csq, int start, int end)
+java.io.FileWriter.append(CharSequence csq)
+
+
+
+
